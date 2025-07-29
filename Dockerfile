@@ -11,7 +11,7 @@ WORKDIR /usr/src/app
 EXPOSE 8000
 
 # Ensure the MCP binary is executable (should already be)
-RUN chmod +x /usr/local/bin/n8n-mcp
+# RUN chmod +x /usr/local/bin/n8n-mcp
 
 # Pass through environment variables via Render dashboard
 # (No ENV directives needed here if you configure in Render)
